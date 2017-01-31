@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+.taskDiv{
+	position: relative;
+	font-size: 30px;
+	width: 20%;
+	height: 60% ;
+	border-width: 2px ;
+	border-style:solid ;
+	background-color:#D0D0D0 ;
+	text-align:left ;
+	border-color:#989898 ;
+	border-radius:5% ;
+	line-height:8 ;
+	padding-left:1%;
+	top:10%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	display : inline-block;
+
+}
+
+.taskTitle{
+	position: absolute;
+	height: 10%;
+	top: -25%;
+	left: 5%;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+.taskContent{
+	position: absolute;
+	height: 60%;
+	bottom: 90%;
+}
+
+body,html{
+	height: 100%
+}
